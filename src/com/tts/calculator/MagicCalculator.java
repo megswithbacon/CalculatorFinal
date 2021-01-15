@@ -18,12 +18,13 @@ public class MagicCalculator extends Calculator{
         return Math.tan(num);
     }
 
+    public static double log(double num){ return Math.log(num); }
+
     public static double factorial(double num){
         double finalNumber = 1;
         for (double i = 2; i <= num ; i++){
-            finalNumber += i;
+            finalNumber *= i;
         }
         return finalNumber;
     }
-
 }

@@ -22,9 +22,9 @@ public class Calculator {
         return num / dividedBy;
     }
 
-    //calculates num to the powerOf second int
-    public static double powerOf(double powerOf, double num){
-        return Math.pow(powerOf, num);
+    //calculates num to the xToTheY second int
+    public static double xToTheY(double x, double y){
+        return Math.pow(y, x);
     }
 
     //takes int and squares it
